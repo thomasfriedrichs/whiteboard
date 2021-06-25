@@ -72,6 +72,17 @@ Input: "aaabccdddda"
 
 Output: "3ab2c4da"
 
+function(string) {
+    for(let i = 0; i <= string.length; i++) {
+        for(let j = i+1; j <= string.length; j++) {
+            if(string[j] == string[i]) {
+                
+            }
+        }
+    }
+}
+
+
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -89,4 +100,13 @@ Input: "copyright"
 Output: true
 
 
+function (string) {
+  for(let i = 0; i < string.length; i ++){
+    for(let j = 0; j < string.length; j ++){
+      if (string[i] === string[j])
+        return false;
+    }
+  } 
+  return true; 
+}
 
