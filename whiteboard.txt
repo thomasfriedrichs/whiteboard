@@ -43,13 +43,12 @@ Output: [7, 9, "hi", 12, 53]
 // check if j === i then splice j 
 
 function (array) {
-  let changedArray = array;
-  for(let i = 0; i < changedArray.length; i ++){
-    for(let j = 0; i < changedArray.length i ++){
+  for(let i = 0; i < array.length; i ++){
+    for(let j = 0; i < array.length i ++){
       if (j === i) {
-        changedArray.splice(j,1)
+        array.splice(j,1)
       } else {
-        return changedArray;
+        return array;
       }
     }
   }
@@ -72,3 +71,22 @@ Example
 Input: "aaabccdddda"
 
 Output: "3ab2c4da"
+
+
+//////////////////////////////////////////////////////////////////////////
+
+probleam 4: 
+
+Write an algorithm that determines whether all the elements in a string are unique. You may not convert the string into an array or use array methods to solve this problem. The algorithm should return a boolean.
+
+Example
+Input: "hello"
+
+Output: false
+
+Input: "copyright"
+
+Output: true
+
+
+
