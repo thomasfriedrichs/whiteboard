@@ -8,4 +8,11 @@ Input: "Jasmine Ann Jones"
 
 Output: "Jasmine%20Ann%20Jones"
 
-//
+// seperate sentence by spaces
+// join back together replacing spaces with %20
+// return result
+
+function (string) {
+  const result = string.split(' ').join(%20);
+  return result;
+}
