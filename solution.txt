@@ -9,6 +9,9 @@ Input: "copyright"
 
 Output: true
 
+//nest for loops in order to be able to compare different elements
+//within the second loop, use conditional that returns booleans 
+
 function (string) {
   for (let i = 0; i < string.length; i++) {
     for (let j = 0; j < string.length; j++ ) {
